@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Job's retreat!</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li class="nav-bar-li">
+            <a href="index.html" class="nav-bar-a">Home</a>
+          </li>
+          <li class="nav-bar-li">
+            <a href="blog.html" class="nav-bar-a">Blog</a>
+          </li>
+          <li class="nav-bar-li">
+            <a href="contact.html" class="nav-bar-a">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form>
+        <label>First name:</label><br />
+        <input type="text" placeholder="First name" /><br />
+        <label>Last name:</label><br />
+        <input type="text" placeholder="Last name" /><br />
+        <label>Gender:</label><br />
+        <input type="radio" value="Male" name="radio" />
+        <label for="male">Male</label> <br />
+        <input type="radio" value="Female" name="radio" />
+        <label for="female">Female</label> <br />
+        <input type="radio" value="Other" name="radio" />
+        <label for="other">Other</label> <br />
+        <label>I'm interested in renting:</label><br />
+        <input type="checkbox" name="cabin1" value="Cabin1" />
+        <label for="vehicle1"> Cabin #1</label><br />
+        <input type="checkbox" name="Cabin2" value="Cabin2" />
+        <label for="vehicle2"> Cabin #2</label><br />
+        <input type="checkbox" name="Cabin3" value="Cabin3" />
+        <label for="vehicle3"> Cabin #3</label><br />
+        <label>Date of birth:</label><br />
+        <input type="date" /><br />
+        <label>E-mail:</label><br />
+        <input type="email" name="email" /><br />
+
+        <label>Phone number:</label><br />
+        <input
+          type="phonenumber"
+          name="phonenumber"
+          placeholder="+31612345678"
+        /><br />
+        <label>Message:</label><br />
+        <textarea
+          name="message"
+          placeholder="Please type your message here"
+        ></textarea
+        ><br />
+        <div class="formbuttons">
+          <input type="button" value="Reset" class="formbutton" />
+          <input type="button" value="Submit" class="formbutton" />
+        </div>
+      </form>
+    </main>
+    <footer>
+      <p>©Job Pennekamp (2022)</p>
+    </footer>
+  </body>
+</html>
